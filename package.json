@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon index.js",
     "client": "cd client && yarn run start",
-    "client_build" : "cd client && yarn run build",
+    "client_build" : "cd client && yarn install && yarn run build",
     "dev": "concurrently \"yarn run server\" \"yarn run client\""
   },
   "author": "",
