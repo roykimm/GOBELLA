@@ -7,14 +7,23 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon index.js",
     "client": "cd client && yarn run start",
-    "client_build" : "cd client && yarn install && yarn run build",
+    "client_build": "cd client && yarn install && yarn run build",
     "dev": "concurrently \"yarn run server\" \"yarn run client\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "concurrently": "^5.2.0",
-    "express": "^4.17.1"
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "formidable": "^1.2.2",
+    "fs-extra": "^9.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0",
+    "uuid": "^8.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
