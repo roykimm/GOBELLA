@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon index.js",
-    "client": "yarn --cwd ./client run start",
-    "client_build" : "yarn --cwd ./client run build",
+    "client": "cd client && yarn run start",
+    "client_build" : "cd client && yarn run build",
     "dev": "concurrently \"yarn run server\" \"yarn run client\""
   },
   "author": "",
