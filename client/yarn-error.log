@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\roykimm\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @material-ui/core
+  C:\Program Files\nodejs\node.exe C:\Users\roykimm\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @material-ui/icons
 
 PATH: 
   C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\roykimm\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files (x86)\PuTTY;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\roykimm\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\roykimm\AppData\Local\Programs\Python\Python38-32;C:\Program Files\Java\jdk-14\bin;C:\Users\roykimm\AppData\Local\Microsoft\WindowsApps;C:\Users\roykimm\AppData\Roaming\npm;C:\Users\roykimm\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.4\bin;C:\Program Files\Bandizip;C:\Program Files\heroku\bin;C:\Users\roykimm\AppData\Local\GitHubDesktop\bin;C:\Users\roykimm\AppData\Local\atom\bin
@@ -22,6 +22,7 @@ npm manifest:
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+      "@material-ui/core": "^4.10.2",
       "@testing-library/jest-dom": "^4.2.4",
       "@testing-library/react": "^9.3.2",
       "@testing-library/user-event": "^7.1.2",
